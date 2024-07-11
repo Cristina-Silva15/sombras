@@ -1,0 +1,42 @@
+.container{
+ margin-top: 8%;
+ margin-left: 4%;
+}
+
+.foto1{
+ filter: drop-shadow(2px 2px 30px rgb(247, 99, 119)); /*sombra na imagem*/
+ margin-bottom: 10%;
+ display: inline-block;
+ margin-right: 5%;
+ transition: transform 1s;
+}
+
+.foto1:hover {
+   transform: scale(1.1); /*transforma a imagem em um tamanho maior ao passar o mouse*/
+  }
+
+
+.foto2{
+ filter: drop-shadow(2px 2px 30px rgb(218, 196, 4)); /*sombra na imagem*/
+ margin-left: 10%;
+ margin-right: 8%;
+ margin-bottom: 10%;
+ display: inline-block;
+ transition: transform 1s;
+
+}
+.foto2:hover {
+    transform: scale(1.1);
+}
+
+.foto3{
+ filter: drop-shadow(2px 2px 30px rgb(88, 3, 88)); /*sombra na imagem*/
+ margin-left: 8%;
+ margin-right: 3%;
+ display: inline-block;
+ transition: transform 1s;
+
+}
+.foto3:hover {
+    transform: scale(1.1);
+   }
