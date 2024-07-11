@@ -1,1 +1,1 @@
-# sombras
+# sombras na imagem
